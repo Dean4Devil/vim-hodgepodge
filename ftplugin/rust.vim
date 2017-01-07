@@ -1,5 +1,5 @@
 " Rust specific settings
-source ~/.config/nvim/ftplugin/code.vim
+runtime ftplugin/code.vim
 
 let g:tagbar_type_rust = {
 	\ 'ctagstype' : 'rust',

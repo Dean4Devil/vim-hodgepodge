@@ -1,3 +1,3 @@
-source ~/.config/nvim/ftplugin/code.vim
+runtime ftplugin/code.vim
 
 UltiSnipsAddFiletypes less.css

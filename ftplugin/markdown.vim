@@ -1,4 +1,4 @@
-source ~/.config/nvim/ftplugin/code.vim
+runtime ftplugin/code.vim
 
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
 

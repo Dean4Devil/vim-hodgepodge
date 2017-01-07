@@ -1,5 +1,5 @@
 " Haskell specific configuration
-source ~/.config/nvim/ftplugin/code.vim
+runtime ftplugin/code.vim
 
 set expandtab
 set tabstop=8

@@ -1,5 +1,5 @@
-source ~/.config/nvim/ftplugin/code.vim
-source ~/.config/nvim/ftplugin/prose.vim
+runtime ftplugin/code.vim
+runtime ftplugin/prose.vim
 
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor = "latex"

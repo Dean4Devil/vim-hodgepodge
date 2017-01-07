@@ -1,6 +1,6 @@
 " C/C++ specific configuration
 " !! THIS FILE GETS SOURCED BY c.vim !!
-source ~/.config/nvim/ftplugin/code.vim
+runtime ftplugin/code.vim
 
 "let g:Syntastic_c_checkers = ['clang_check', 'clang_tidy']
 "let g:Syntastic_cpp_checkers = ['clang_check', 'clang_tidy']

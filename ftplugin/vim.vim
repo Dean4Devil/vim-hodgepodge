@@ -1,5 +1,5 @@
 " Vimscript because reasons
-source ~/.config/nvim/ftplugin/code.vim
+runtime ftplugin/code.vim
 
 setlocal foldmethod=marker
 
