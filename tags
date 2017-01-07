@@ -1,0 +1,49 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<c-h>	/home/dean/.config/nvim/init.vim	/^nnoremap <c-h> <c-w>h$/;"	m	language:Vim
+<c-j>	/home/dean/.config/nvim/init.vim	/^nnoremap <c-j> <c-w>j$/;"	m	language:Vim
+<c-k>	/home/dean/.config/nvim/init.vim	/^nnoremap <c-k> <c-w>k$/;"	m	language:Vim
+<c-l>	/home/dean/.config/nvim/init.vim	/^nnoremap <c-l> <c-w>l$/;"	m	language:Vim
+<c-s-tab>	/home/dean/.config/nvim/init.vim	/^nnoremap <c-s-tab> :MBEbp<CR>$/;"	m	language:Vim
+<C-space>	/home/dean/.config/nvim/init.vim	/^nnoremap <C-space> <Plug>IMAP_JumpForward$/;"	m	language:Vim
+<c-tab>	/home/dean/.config/nvim/init.vim	/^nnoremap <c-tab>   :MBEbn<cr>$/;"	m	language:Vim
+<F2>	/home/dean/.config/nvim/init.vim	/^map <F2> :NERDTreeToggle<CR>$/;"	m	language:Vim
+<F3>	/home/dean/.config/nvim/init.vim	/^map <F3> :Tagbar<CR>$/;"	m	language:Vim
+<F4>	/home/dean/.config/nvim/init.vim	/^noremap <F4> :Autoformat<CR>$/;"	m	language:Vim
+<F5>	/home/dean/.config/nvim/init.vim	/^nnoremap <F5> :Goyo<CR>$/;"	m	language:Vim
+<leader>"	/home/dean/.config/nvim/init.vim	/^nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel$/;"	m	language:Vim
+<leader>*	/home/dean/.config/nvim/init.vim	/^vnoremap <leader>* c**<C-R>"**<ESC>$/;"	m	language:Vim
+<Leader>c	/home/dean/.config/nvim/init.vim	/^nnoremap <Leader>c :MBEClose<cr>$/;"	m	language:Vim
+<leader>ev	/home/dean/.config/nvim/init.vim	/^nnoremap <leader>ev :vsplit $MYVIMRC<cr>$/;"	m	language:Vim
+<Leader>f	/home/dean/.config/nvim/init.vim	/^nnoremap <Leader>f :MBEFocus<cr>$/;"	m	language:Vim
+<Leader>h	/home/dean/.config/nvim/init.vim	/^nnoremap <Leader>h :set hlsearch!<CR>$/;"	m	language:Vim
+<Leader>o	/home/dean/.config/nvim/init.vim	/^nnoremap <Leader>o :MBEOpen<cr>$/;"	m	language:Vim
+<leader>S	/home/dean/.config/nvim/init.vim	/^nnoremap <leader>S :mksession!<CR>$/;"	m	language:Vim
+<leader>sv	/home/dean/.config/nvim/init.vim	/^nnoremap <leader>sv :source $MYVIMRC<cr>$/;"	m	language:Vim
+<leader>w	/home/dean/.config/nvim/init.vim	/^nnoremap <leader>w :w<CR>$/;"	m	language:Vim
+g:ctrlp_user_command	/home/dean/.config/nvim/init.vim	/^let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'$/;"	v	language:Vim
+g:ctrlp_use_caching	/home/dean/.config/nvim/init.vim	/^let g:ctrlp_use_caching = 0$/;"	v	language:Vim
+g:goyo_width	/home/dean/.config/nvim/init.vim	/^let g:goyo_width = 100$/;"	v	language:Vim
+g:lightline	/home/dean/.config/nvim/init.vim	/^let g:lightline = {$/;"	v	language:Vim
+g:limelight_default_coefficient	/home/dean/.config/nvim/init.vim	/^let g:limelight_default_coefficient = 0.7$/;"	v	language:Vim
+g:multi_cursor_exit_from_insert_mode	/home/dean/.config/nvim/init.vim	/^let g:multi_cursor_exit_from_insert_mode = 0$/;"	v	language:Vim
+g:multi_cursor_exit_from_visual_mode	/home/dean/.config/nvim/init.vim	/^let g:multi_cursor_exit_from_visual_mode = 0$/;"	v	language:Vim
+g:NumberToggleTrigger	/home/dean/.config/nvim/init.vim	/^let g:NumberToggleTrigger = "<C-m>"$/;"	v	language:Vim
+g:rehash256	/home/dean/.config/nvim/init.vim	/^let g:rehash256 = 1$/;"	v	language:Vim
+g:startify_bookmarks	/home/dean/.config/nvim/init.vim	/^let g:startify_bookmarks = [{'r': '~\/.config\/nvim\/init.vim'}]$/;"	v	language:Vim
+g:startify_commands	/home/dean/.config/nvim/init.vim	/^let g:startify_commands = [$/;"	v	language:Vim
+g:startify_list_order	/home/dean/.config/nvim/init.vim	/^let g:startify_list_order = [$/;"	v	language:Vim
+g:startify_session_dir	/home/dean/.config/nvim/init.vim	/^let g:startify_session_dir = '~\/.local\/share\/nvim\/sessions'$/;"	v	language:Vim
+g:UltiSnipsExpandTrigger	/home/dean/.config/nvim/init.vim	/^let g:UltiSnipsExpandTrigger = "<c-e>"$/;"	v	language:Vim
+g:UltiSnipsListSnippets	/home/dean/.config/nvim/init.vim	/^let g:UltiSnipsListSnippets = "<c-l>"$/;"	v	language:Vim
+goyo_enter	/home/dean/.config/nvim/init.vim	/^function! s:goyo_enter()$/;"	f	language:Vim
+goyo_leave	/home/dean/.config/nvim/init.vim	/^function! s:goyo_leave()$/;"	f	language:Vim
+gV	/home/dean/.config/nvim/init.vim	/^nnoremap gV `[v`]$/;"	m	language:Vim
+help	/home/dean/.config/nvim/init.vim	/^cnoremap help vert botright help$/;"	m	language:Vim
+il(	/home/dean/.config/nvim/init.vim	/^onoremap il( :<c-u>normal! F)vi(<cr>$/;"	m	language:Vim
+in(	/home/dean/.config/nvim/init.vim	/^onoremap in( :<c-u>normal! f(vi(<cr>$/;"	m	language:Vim
+j	/home/dean/.config/nvim/init.vim	/^nnoremap j gj$/;"	m	language:Vim
+k	/home/dean/.config/nvim/init.vim	/^nnoremap k gk$/;"	m	language:Vim
+mapleader	/home/dean/.config/nvim/init.vim	/^let mapleader = ","$/;"	v	language:Vim
+maplocalleader	/home/dean/.config/nvim/init.vim	/^let maplocalleader = ","$/;"	v	language:Vim
+p	/home/dean/.config/nvim/init.vim	/^onoremap p i($/;"	m	language:Vim
+q:	/home/dean/.config/nvim/init.vim	/^map q: :q$/;"	m	language:Vim

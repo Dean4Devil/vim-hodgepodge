@@ -1,0 +1,106 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<Bar>	/home/dean/.config/nvim/ftplugin/markdown.vim	/^inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a$/;"	m	language:Vim
+<C-c>	/home/dean/.config/nvim/ftplugin/code.vim	/^nnoremap <C-c> :call ToggleCole()<CR>$/;"	m	language:Vim
+<C-c>	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^nnoremap <C-c> :call ToggleCole()<CR>$/;"	m	language:Vim
+<F3>	/home/dean/.config/nvim/ftplugin/code.vim	/^map <F3> :TagbarToggle<CR>$/;"	m	language:Vim
+<F3>	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^map <F3> :TagbarToggle<CR>$/;"	m	language:Vim
+<Leader>r	/home/dean/.dotfiles/.vim/ftplugin/haskell.vim	/^nnoremap <buffer> <silent> <Leader>r :HdevtoolsClear<CR>$/;"	m	language:Vim
+<Leader>t	/home/dean/.dotfiles/.vim/ftplugin/haskell.vim	/^nnoremap <buffer> <Leader>t :HdevtoolsType<CR>$/;"	m	language:Vim
+<Plug>Markdown_OpenUrlUnderCursor	/home/dean/.config/nvim/ftplugin/markdown.vim	/^nnoremap <Plug>Markdown_OpenUrlUnderCursor :call <sid>OpenUrlUnderCursor()<cr>$/;"	m	language:Vim
+align	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:align()$/;"	f	language:Vim
+b:delimitMate_nesting_quotes	/home/dean/.dotfiles/.vim/ftplugin/python.vim	/^let b:delimitMate_nesting_quotes = ['"']$/;"	v	language:Vim
+b:delimitMate_smart_quotes	/home/dean/.dotfiles/.vim/ftplugin/rust.vim	/^let b:delimitMate_smart_quotes = '\\&\\%#'$/;"	v	language:Vim
+b:delimitMate_smart_quotes	/home/dean/.dotfiles/.vim/ftplugin/vim.vim	/^let b:delimitMate_smart_quotes = '\\&\\%#'$/;"	v	language:Vim
+b:loaded_delimitMate	/home/dean/.dotfiles/.vim/ftplugin/mail.vim	/^let b:loaded_delimitMate = 1$/;"	v	language:Vim
+delimitMate_expand_cr	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let delimitMate_expand_cr = 2$/;"	v	language:Vim
+delimitMate_expand_space	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let delimitMate_expand_space = 1$/;"	v	language:Vim
+delimitMate_matchpairs	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let delimitMate_matchpairs = '(:),[:],{:},<:>'$/;"	v	language:Vim
+delimitMate_matchpairs	/home/dean/.dotfiles/.vim/ftplugin/haskell.vim	/^let delimitMate_matchpairs = '(:),[:],{:}'$/;"	v	language:Vim
+delimitMate_matchpairs	/home/dean/.dotfiles/.vim/ftplugin/rust.vim	/^let delimitMate_matchpairs = '(:),[:],{:}'$/;"	v	language:Vim
+delimitMate_smart_quotes	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let delimitMate_smart_quotes = '\\%(\\w\\|[^[:punct:][:space:]]\\|\\%(\\\\\\\\\\)*\\\\\\)\\%#\\|\\%#\\%(\\w\\|[^[:space:][:punct:]]\\)'$/;"	v	language:Vim
+FindCornerOfSyntax	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:FindCornerOfSyntax(lnum, col, step)$/;"	f	language:Vim
+FindCornersOfSyntax	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:FindCornersOfSyntax(lnum, col)$/;"	f	language:Vim
+FindLeftOfSyntax	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:FindLeftOfSyntax(lnum, col)$/;"	f	language:Vim
+FindNextSyntax	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:FindNextSyntax(lnum, col, name)$/;"	f	language:Vim
+FindRightOfSyntax	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:FindRightOfSyntax(lnum, col)$/;"	f	language:Vim
+Foldexpr_markdown	/home/dean/.config/nvim/ftplugin/markdown.vim	/^func! Foldexpr_markdown(lnum)$/;"	f	language:Vim
+g:easytags_async	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:easytags_async = 1$/;"	v	language:Vim
+g:easytags_async	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:easytags_async = 1$/;"	v	language:Vim
+g:easytags_auto_highlight	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:easytags_auto_highlight = 0$/;"	v	language:Vim
+g:easytags_auto_highlight	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:easytags_auto_highlight = 0$/;"	v	language:Vim
+g:easytags_dynamic_files	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:easytags_dynamic_files = 2$/;"	v	language:Vim
+g:easytags_dynamic_files	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:easytags_dynamic_files = 2$/;"	v	language:Vim
+g:easytags_events	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:easytags_events = ['BufWritePost']$/;"	v	language:Vim
+g:easytags_events	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:easytags_events = ['BufWritePost']$/;"	v	language:Vim
+g:EclimBrowser	/home/dean/.dotfiles/.vim/ftplugin/jvm.vim	/^let g:EclimBrowser = 'firefox'$/;"	v	language:Vim
+g:EclimCompletionMethod	/home/dean/.dotfiles/.vim/ftplugin/jvm.vim	/^let g:EclimCompletionMethod = 'omnifunc'$/;"	v	language:Vim
+g:formatdef_rustfmt	/home/dean/.dotfiles/.vim/ftplugin/rust.vim	/^let g:formatdef_rustfmt = '"rustfmt"'$/;"	v	language:Vim
+g:formatters_rust	/home/dean/.dotfiles/.vim/ftplugin/rust.vim	/^let g:formatters_rust = ['rustfmt']$/;"	v	language:Vim
+g:rust_src_path	/home/dean/.dotfiles/.vim/ftplugin/rust.vim	/^let g:rust_src_path = '~\/Development\/rust-lang\/src'$/;"	v	language:Vim
+g:syntastic_aggregate_errors	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:syntastic_aggregate_errors = 1$/;"	v	language:Vim
+g:syntastic_aggregate_errors	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:syntastic_aggregate_errors = 1$/;"	v	language:Vim
+g:syntastic_aggregate_errors	/home/dean/.vim/ftplugin/prose.vim	/^let g:syntastic_aggregate_errors = 0$/;"	v	language:Vim
+g:syntastic_always_populate_loc_list	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_auto_loc_list = 1$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:syntastic_check_on_open = 0$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:syntastic_check_on_open = 0$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/dean/.dotfiles/.vim/ftplugin/haskell.vim	/^let g:syntastic_check_on_open = 0$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_check_on_open = 1$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/dean/.vim/ftplugin/prose.vim	/^let g:syntastic_check_on_open = 0$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/dean/.vim/ftplugin/prose.vim	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:Syntastic_cpp_checkers	/home/dean/.vim/ftplugin/cpp.vim	/^let g:Syntastic_cpp_checkers = ['clang_check', 'clang_tidy']$/;"	v	language:Vim
+g:Syntastic_cpp_clang_check_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:Syntastic_cpp_clang_check_args = "-p build"$/;"	v	language:Vim
+g:syntastic_cpp_clang_check_post_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_cpp_clang_check_post_args = ""$/;"	v	language:Vim
+g:Syntastic_cpp_clang_tidy_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:Syntastic_cpp_clang_tidy_args = "-p build"$/;"	v	language:Vim
+g:syntastic_cpp_clang_tidy_post_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_cpp_clang_tidy_post_args = ""$/;"	v	language:Vim
+g:Syntastic_c_checkers	/home/dean/.vim/ftplugin/cpp.vim	/^let g:Syntastic_c_checkers = ['clang_check', 'clang_tidy']$/;"	v	language:Vim
+g:Syntastic_c_clang_check_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:Syntastic_c_clang_check_args = "-p build"$/;"	v	language:Vim
+g:syntastic_c_clang_check_post_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_c_clang_check_post_args = ""$/;"	v	language:Vim
+g:Syntastic_c_clang_tidy_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:Syntastic_c_clang_tidy_args = "-p build"$/;"	v	language:Vim
+g:syntastic_c_clang_tidy_post_args	/home/dean/.vim/ftplugin/cpp.vim	/^let g:syntastic_c_clang_tidy_post_args = ""$/;"	v	language:Vim
+g:syntastic_haskell_checkers	/home/dean/.dotfiles/.vim/ftplugin/haskell.vim	/^let g:syntastic_haskell_checkers = ['']$/;"	v	language:Vim
+g:tagbar_type_rust	/home/dean/.dotfiles/.vim/ftplugin/rust.vim	/^let g:tagbar_type_rust = {$/;"	v	language:Vim
+g:Tex_CompileRule_pdf	/home/dean/.vim/ftplugin/tex.vim	/^let g:Tex_CompileRule_pdf = "pdflatex"$/;"	v	language:Vim
+g:tex_flavor	/home/dean/.vim/ftplugin/tex.vim	/^let g:tex_flavor = "latex"$/;"	v	language:Vim
+g:ycm_autoclose_preview_window_after_completion	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:ycm_autoclose_preview_window_after_completion = 1$/;"	v	language:Vim
+g:ycm_autoclose_preview_window_after_completion	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:ycm_autoclose_preview_window_after_completion = 1$/;"	v	language:Vim
+g:ycm_python_binary_path	/home/dean/.dotfiles/.vim/ftplugin/python.vim	/^let g:ycm_python_binary_path = '\/usr\/bin\/python'$/;"	v	language:Vim
+g:ycm_rust_src_path	/home/dean/.config/nvim/ftplugin/code.vim	/^let g:ycm_rust_src_path = '\/home\/dean\/Development\/rust-lang\/src'$/;"	v	language:Vim
+g:ycm_rust_src_path	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^let g:ycm_rust_src_path = '\/home\/dean\/Development\/rust-lang\/src'$/;"	v	language:Vim
+GetHeaderLevel	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:GetHeaderLevel(...)$/;"	f	language:Vim
+GetHeaderLineNum	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:GetHeaderLineNum(...)$/;"	f	language:Vim
+GetLevelOfHeaderAtLine	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:GetLevelOfHeaderAtLine(linenum)$/;"	f	language:Vim
+GetNextHeaderLineNumberAtLevel	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:GetNextHeaderLineNumberAtLevel(level, ...)$/;"	f	language:Vim
+GetParentHeaderLineNumber	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:GetParentHeaderLineNumber(...)$/;"	f	language:Vim
+GetPreviousHeaderLineNumberAtLevel	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:GetPreviousHeaderLineNumberAtLevel(level, ...)$/;"	f	language:Vim
+HeaderDecrease	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer -range=% HeaderDecrease call s:HeaderDecrease(<line1>, <line2>)$/;"	c	language:Vim
+HeaderDecrease	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:HeaderDecrease(line1, line2, ...)$/;"	f	language:Vim
+HeaderIncrease	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer -range=% HeaderIncrease call s:HeaderDecrease(<line1>, <line2>, 1)$/;"	c	language:Vim
+MapNormVis	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MapNormVis(rhs,lhs)$/;"	f	language:Vim
+MapNotHasmapto	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MapNotHasmapto(lhs, rhs)$/;"	f	language:Vim
+Markdown_GetUrlForPosition	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:Markdown_GetUrlForPosition(lnum, col)$/;"	f	language:Vim
+MoveToCurHeader	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MoveToCurHeader()$/;"	f	language:Vim
+MoveToNextHeader	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MoveToNextHeader()$/;"	f	language:Vim
+MoveToNextSiblingHeader	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MoveToNextSiblingHeader()$/;"	f	language:Vim
+MoveToParentHeader	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MoveToParentHeader()$/;"	f	language:Vim
+MoveToPreviousHeader	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MoveToPreviousHeader()$/;"	f	language:Vim
+MoveToPreviousSiblingHeader	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:MoveToPreviousSiblingHeader()$/;"	f	language:Vim
+OpenUrlUnderCursor	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:OpenUrlUnderCursor()$/;"	f	language:Vim
+s:headersRegexp	/home/dean/.config/nvim/ftplugin/markdown.vim	/^let s:headersRegexp = '\\v^(#|.+\\n(\\=+|-+)$)'$/;"	v	language:Vim
+s:levelRegexpDict	/home/dean/.config/nvim/ftplugin/markdown.vim	/^let s:levelRegexpDict = {$/;"	v	language:Vim
+SetexToAtx	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer -range=% SetexToAtx call s:SetexToAtx(<line1>, <line2>)$/;"	c	language:Vim
+SetexToAtx	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:SetexToAtx(line1, line2)$/;"	f	language:Vim
+TableFormat	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer TableFormat call s:TableFormat()$/;"	c	language:Vim
+TableFormat	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:TableFormat()$/;"	f	language:Vim
+Toc	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer Toc call s:Toc()$/;"	c	language:Vim
+Toc	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:Toc(...)$/;"	f	language:Vim
+Toch	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer Toch call s:Toc('horizontal')$/;"	c	language:Vim
+Toct	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer Toct call s:Toc('tab')$/;"	c	language:Vim
+Tocv	/home/dean/.config/nvim/ftplugin/markdown.vim	/^command! -buffer Tocv call s:Toc('vertical')$/;"	c	language:Vim
+ToggleCole	/home/dean/.config/nvim/ftplugin/code.vim	/^function! ToggleCole ()$/;"	f	language:Vim
+ToggleCole	/home/dean/.dotfiles/.vim/ftplugin/code.vim	/^function! ToggleCole ()$/;"	f	language:Vim
+VersionAwareNetrwBrowseX	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:VersionAwareNetrwBrowseX(url)$/;"	f	language:Vim
+VisMove	/home/dean/.config/nvim/ftplugin/markdown.vim	/^function! s:VisMove(f)$/;"	f	language:Vim
