@@ -16,8 +16,6 @@ nnoremap <C-c> :call ToggleCole()<CR>
 " }}}
 
 " Deoplete --- {{{
-let g:deoplete#enable_at_startup = 1
-
 inoremap <silent><expr> <TAB>
     \ pumvisible() ? "\<C-n>" :
     \ <SID>check_back_space() ? "\<TAB>" :
