@@ -15,7 +15,7 @@ let g:tagbar_type_rust = {
 	\]
 	\}
 
-let g:deoplete#delimiters += ['::', '.']
+let g:deoplete#delimiters = ['::', '.']
 
 let g:deoplete#sources#rust#racer_binary='/usr/bin/racer'
 let g:deoplete#sources#rust#rust_source_path='/usr/src/rust'
