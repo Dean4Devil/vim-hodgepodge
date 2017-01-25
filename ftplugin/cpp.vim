@@ -2,6 +2,9 @@
 " !! THIS FILE GETS SOURCED BY c.vim !!
 runtime ftplugin/code.vim
 
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
+let g:deoplete#sources#clang#clang_header = '/usr/lib/clang/'
+
 "let g:Syntastic_c_checkers = ['clang_check', 'clang_tidy']
 "let g:Syntastic_cpp_checkers = ['clang_check', 'clang_tidy']
 "let g:syntastic_always_populate_loc_list = 1
