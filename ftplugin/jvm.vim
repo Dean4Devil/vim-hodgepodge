@@ -4,3 +4,5 @@ runtime ftplugin/code.vim
 
 let g:EclimCompletionMethod = 'omnifunc'
 let g:EclimBrowser = 'firefox'
+
+let g:deoplete#omni#functions.java = ['eclim#java#complete#CodeComplete']
